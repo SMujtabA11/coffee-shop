@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)),url("./assests/top-view-coffee-beans-cups-coffee-black-background-with-copy-space.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+nav{
+    width:auto;
+    height:80px;
+    backdrop-filter:blur(10px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 40px;
+}
+nav>#link-div{
+    margin-right: 40px;
+}
+
+nav>#link-div>a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    transition: 0.2s;
+}
